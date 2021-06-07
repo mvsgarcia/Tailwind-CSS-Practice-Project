@@ -9,6 +9,10 @@ module.exports = {
           100: '#e2e2d5',
           200: '#888883',
         }
+      }, // always put comma kapag may susunod
+
+      fontFamily: {
+        body: ['Nunito']
       }
     },
   },
