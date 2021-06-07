@@ -1,18 +1,25 @@
 {
-  "name": "ninjafood",
+  "name": "tailwind-css-practice-project",
   "version": "1.0.0",
-  "description": "tailwind css practice project",
+  "description": "I practice Tailwind CSS with the help of The Net Ninja's Tailwind CSS Tutorial Playlist: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw",
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvsgarcia/Tailwind-CSS-Practice-Project.git"
+  },
   "author": "Miecaela Garcia",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/mvsgarcia/Tailwind-CSS-Practice-Project/issues"
+  },
+  "homepage": "https://github.com/mvsgarcia/Tailwind-CSS-Practice-Project#readme",
+  "dependencies": {},
+  "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "css": "^3.0.0",
     "postcss": "^8.3.0",
-    "tailwind": "^4.0.0",
     "tailwindcss": "^2.1.4"
   }
 }
